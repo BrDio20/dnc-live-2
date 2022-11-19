@@ -1,0 +1,103 @@
+body{
+    background: rgb(15, 15, 15);
+    margin: 25px 400px 67px 400px;
+    align-items: center;
+    font-family: 'Inter';
+}
+header h2{
+    height: 10px;
+}
+#logo{
+    width: auto;
+    text-align: center;
+}
+.menu{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.asign{
+    margin-bottom: 40px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subtitle, p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+label{
+    line-height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+#enter{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    align-items: center;
+    text-align: center;
+    background-color: #00000000;
+    border: none;
+
+    color: #FFFFFF;
+}
+.inputStyle{
+    background: #7d7d7d;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border-radius: 25px;
+    margin: 15px 0 10px 0;
+    padding-left: 10px;
+    color: white;
+}
+input:focus{
+    outline: 0;
+}
+.buttonStyle{
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+#button  button{
+    margin-top: 10px;
+    width: 32%;
+    height: 40px;
+}
+#button{
+    width: 100%;
+    text-align: center;
+}
+
+#flexForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+footer button{
+    width: 50%;
+    height: 40px;
+
+}
